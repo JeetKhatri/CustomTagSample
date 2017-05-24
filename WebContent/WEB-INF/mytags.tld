@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>  
+<!DOCTYPE taglib  
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"  
+    "http://java.sun.com/j2ee/dtd/web-jsptaglibrary_1_2.dtd">  
+  
+<taglib>	
+	<tlib-version>1.0</tlib-version>  
+	<jsp-version>1.2</jsp-version>  
+	<short-name>current Time</short-name>                                       <!-- Any name -->
+	<tag>
+		<name>currentTime</name>                                                <!-- In jsp use this name -->
+		<tag-class>com.controller.GetCurrentDateTimeClass</tag-class>           <!-- Class in which tag details are their -->
+	</tag>
+	<tag>
+		<name>getCube</name>
+		<tag-class>com.controller.cubeClass</tag-class>
+		<attribute>
+			<name>number</name>
+		</attribute>
+	</tag>
+	<tag>
+		<name>createLoop</name>
+		<tag-class>com.controller.CreateLoopUsingIterator</tag-class>
+		<attribute>
+			<name>limit</name>
+		</attribute>
+	</tag>
+	
+</taglib>
+  
+  
+  
+  
